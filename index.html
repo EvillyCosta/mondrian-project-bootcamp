@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 320px 360px 50px;
+      grid-template-rows: 414px 296px 20px;
+      grid-auto-rows: 20px;
+      background-color: black;
+    }
+
+    .first {
+      background-color:#E72F24;
+      grid-area: 1/1/2/2;
+    }
+    .second {
+      background-color: aliceblue;
+      width: 369px;
+      grid-area: 1/2/2/3;
+    }
+    .third {
+      background-color: aliceblue;
+      grid-area: 2/1/3/2;
+    }
+    .fourth {
+      background-color: aliceblue;
+      grid-area: 2/2/3/3;
+    }
+    .fifth {
+      background-color: aliceblue;
+      grid-area: 3/1/4/2;
+
+    }
+    .sixth {
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 198px 153px;
+      grid-area: 3/2/4/3;
+    }
+    .one {
+      background-color: yellow;
+    }
+    .two {
+      background-color: #232629;
+    }
+    .eight {
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 50px;
+      grid-template-rows: 130px;
+    }
+    .three {
+      background-color: blue;
+      border-bottom: 10px solid black;
+    }
+    .four {
+      background-color: aliceblue;
+      height: 200px;
+    }
+    .seven {
+      background-color: aliceblue;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item first"></div>
+    <div class="item second"></div>
+    <div class="item third"></div>
+    <div class="item fourth"></div>
+    <div class="item fifth"></div>
+    <div class="item sixth">
+      <div class="one"></div>
+      <div class="two"></div>
+    </div>
+    <div class="seven"></div>
+    <div class="eight">
+      <div class="three"></div>
+      <div class="four"></div>
+    </div>
+  </div>
+</body>
+
+</html>
