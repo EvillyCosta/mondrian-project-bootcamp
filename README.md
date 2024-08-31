@@ -1,5 +1,7 @@
 # mondrian-project-bootcamp
 
+![initial page](https://i.pinimg.com/originals/14/a6/45/14a645c12bd4073fbf533d0c922ca42f.jpg)
+
 ## Como Executar o Projeto
 [Link para visualização](https://evillycosta.github.io/mondrian-project-bootcamp/)
 
